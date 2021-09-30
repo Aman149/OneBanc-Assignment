@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.main{
+    margin: 10px auto;
+    max-width:  600px;
+    padding: 2px;
+    border: 2px solid black; 
+    max-height: auto;
+    overflow: hidden;
+}
+
+.header {
+    border-bottom: 2px solid black;
+    padding: 5px 10px;
+    display: flex;
+}
+
+.profile {
+    margin-left: 15px;
+    width: 35px;
+    height: 35px;
+    background: rgba(177, 235, 112, 0.972);
+    border-radius: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.details {
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* ------------ Date part ------------*/
+.top-date {
+    display: flex;
+    flex-direction: row;
+  }
+  
+.top-date::before, .top-date::after {
+    content: "";
+    flex: 1 1;
+    border-bottom-style: dotted;
+    margin: auto;
+}
+  
+.top-date::before{
+    margin-right: 5px;
+}
+  
+.top-date::after {
+    margin-left: 5px;
+}
+/*------------ Align transactions ------------*/
+.right-align {
+    display: flex;
+    justify-content:  flex-end;
+}
+
+.left-align {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* ------------Transaction box------------ */
+.transaction-box {
+    margin: 20px;
+    width: 350px;
+    height: auto;
+    border: 2px solid black;
+    display: inline-grid;
+    grid-template-columns: auto auto ;
+    grid-column-gap: 50px;
+    padding: 10px;
+}
+
+.transaction-box-amount {
+    font-size: 40px;
+}
+
+.transaction-box-message {
+    font-size: 16px;
+    padding-top: 12px;
+}
+
+.transaction-box-ID {
+    font-size: 14px;
+    padding-top: 13px;
+}
+
+.left-align {
+    display: flex;
+    justify-content: flex-start;
+}
+  
+.right-align {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    margin: auto;
+    padding: 8px 15px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pay-btn:hover {
+    background-color: rgba(0, 128, 0, 0.664);
+}
+
+.decline-btn:hover, .cancel-btn:hover {
+    background-color: rgba(179, 63, 64);
+}
+
+.right-align-date, .left-align-date {
+    font-size: small;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: -15px;
+    padding-left: 20px;
+}
+
+.right-align-date {
+    padding-right: 20px;
+    justify-content: flex-end;
+}
+
+.next-btn {
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    margin-left: auto;
+}
+
