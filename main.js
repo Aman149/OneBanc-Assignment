@@ -119,7 +119,7 @@ function addTransactions(result) {
                 <p class="transaction-box-amount">&#8377; ${result[information][i].amount}</p>
                 <p class="transaction-box-message">🔗 You requested</p>
                 <div class="transaction-box-ID">
-                  <button class="cancel-btn">Cancel</button>
+                  <button href="#" class="cancel-btn">Cancel</button>
                 </div>
                 <a href="#" class="next-btn">&#8250;</a>
               </div>
