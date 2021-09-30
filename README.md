@@ -11,10 +11,11 @@ You need to create the following screen.
  The transaction history screen lists all the transactions of a user on UPI ecosystem done via OneBanc application. The list of transactions is populated like a chat screen (bottom to top) with the most recent transaction appearing at the bottom. Transactions should be grouped by the dates of transaction as displayed in the reference wireframe .
  
  
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+| Transaction Type  | Display Buttons  | Transaction Direction | Alignment |
+| :------------ |:---------------:| --------:| -----------:|
+| Pay      | NA | sent | Right |
+| pay      | NA       |   Received | Left |
+| collect | Pay and Reject       |    Received | Left |
+| collect | Cancel       |    Sent	 | Right |
 
 
