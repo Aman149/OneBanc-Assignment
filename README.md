@@ -18,4 +18,11 @@ You need to create the following screen.
 | collect | Pay and Reject       |    Received | Left |
 | collect | Cancel       |    Sent	 | Right |
 
+### Wireframe
+Following is the wireframe for reference for implementation of the screen 
+![image](https://user-images.githubusercontent.com/63321970/135453784-05f20132-b69f-43bf-88e3-581bb2206903.png)
+
+Figure 1 – Transaction History Screen
+
+
 
